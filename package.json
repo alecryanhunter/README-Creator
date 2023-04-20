@@ -1,7 +1,7 @@
 {
   "name": "readme-creator",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/alecryanhunter/README-Creator#readme",
   "dependencies": {
-    "inquirer": "^9.1.5"
+    "inquirer": "^8.2.4"
   }
 }

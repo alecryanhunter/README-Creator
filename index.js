@@ -41,3 +41,15 @@
         // Basic text input that auto-fills section
     // Questions
         // Enter Github username to generate contact info
+
+const inquirer = require("inquirer")
+
+inquirer.prompt([
+    {
+        type: "input",
+        message: "Can you see this?",
+        name: "test",
+    }
+]).then((answers) => {
+    console.log(answers);
+})

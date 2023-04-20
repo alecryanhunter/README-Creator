@@ -27,6 +27,4 @@ ${contribute}
 ${tests}
 
 ## Questions
-You can contact me at me [Github Profile](${username}) for further questions.
-
-You can also contact me at my email, [${email}](${email})
+You can contact me at me [Github Profile](${username}) or my [email](mailto:${email}) for further questions.
