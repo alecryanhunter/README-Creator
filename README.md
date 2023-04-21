@@ -8,12 +8,15 @@ It taught me a lot about Inquirer, which seems is a very useful package. It also
 
 ## Installation
 
-In order to use the README Creator, clone this repo onto your local machine. Make sure you have NODE.js installed. Once done, navigate to this repository, and run the index.js file using the command 'node index.js'. Fill out the prompts, and then your created README will be placed in the 'output' folder.
+In order to use the README Creator, clone this repo onto your local machine. Make sure you have NODE.js installed. Run the `npm install` command to install the Inquirer module.
 
 ## Usage
 
 A video demonstration of the project can be found [here.](https://drive.google.com/file/d/1X5VTpgXuOsOCoo2sNAirb1BlZ8RaGwS5/view?usp=share_link)
 
+Navigate to this repository, and run the index.js file using the command `node index.js`. Fill out the prompts, and then your created README will be placed in the 'output' folder.
+
 ## Credits
 
-Uses Inquirer Ver. 8.2.4 package, and it's dependencies.
+Uses Inquirer ver. 8.2.4 package, and it's dependencies.
+Uses NODE.js ver. 16.
