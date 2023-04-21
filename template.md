@@ -1,5 +1,5 @@
-# ${title}
-![License Badge](${answers.badge})
+# ${answers.title}
+![License Badge](https://img.shields.io/badge/license-${answer.license}-green)
 
 ## Description
 ${answers.desc}
@@ -28,4 +28,4 @@ ${answers.contribute}
 ${answers.tests}
 
 ## Questions
-You can contact me at me [Github Profile](${answers.username}) or my [email](mailto:${answers.email}) for further questions.
+You can contact me at me [Github Profile](https://github.com/${answers.username}) or my [email](mailto:${answers.email}) for further questions.
