@@ -1,7 +1,8 @@
 # ${title}
+![License Badge](${answers.badge})
 
 ## Description
-${desc}
+${answers.desc}
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,19 +13,19 @@ ${desc}
 - [Questions](#questions)
 
 ## Installation
-${install}
+${answers.install}
 
 ## Usage
-${usage}
+${answers.usage}
 
 ## License
-
+${answers.license-text}
 
 ## Contributing
-${contribute}
+${answers.contribute}
 
 ## Tests
-${tests}
+${answers.tests}
 
 ## Questions
-You can contact me at me [Github Profile](${username}) or my [email](mailto:${email}) for further questions.
+You can contact me at me [Github Profile](${answers.username}) or my [email](mailto:${answers.email}) for further questions.

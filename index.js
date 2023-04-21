@@ -43,13 +43,62 @@
         // Enter Github username to generate contact info
 
 const inquirer = require("inquirer")
+// Store finalized Markdown template here
+const template = ``
 
 inquirer.prompt([
     {
-        type: "input",
-        message: "Can you see this?",
-        name: "test",
-    }
+        // Project Title
+        // title
+        name: "title",
+    },
+    {
+        // Project Description
+        // desc
+        name: "desc",
+        
+    },
+    {
+        // Installation Instructions
+        // install
+        name: "install",
+    },
+    {
+        // Usage Information
+        // usage
+        name: "usage",
+    },
+    {
+        // Contribution Information
+        // contribute
+        name: "contribute",
+    },
+    {
+        // Tests Information
+        // tests
+        name: "tests",
+    },
+    {
+        // License Choice
+        // license
+        name: "license",
+    },
+    {
+        // Github Username
+        // username
+        name: "username",
+    },
+    {
+        // Email Address
+        // email
+        name: "email",
+    },
 ]).then((answers) => {
     console.log(answers);
+
+    // Switch statement from license to choose:
+    // license-text
+    // badge
+
+    // Write File Here
 })
